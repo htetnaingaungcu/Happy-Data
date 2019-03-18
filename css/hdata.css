@@ -1,0 +1,120 @@
+html, body {
+	font-family: 'lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.7;
+	background: #eeefe9;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Abel', sans-serif;
+}
+
+b,strong {
+	font-weight: 400px;
+}
+
+.carousel-caption {
+	z-index: 10px;
+}
+
+.carousel-inner > .item > img {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	min-width: 100%;
+	height: auto;
+	/*background-size: cover;*/
+}
+
+.carousel-inner >.item {
+	height: 500px;
+	background-size: cover;
+}
+
+.intro-block {
+	/*background: url(../images/skyline.png) repeat-x #f333de;*/
+	color: #fff;
+	background: #6a7def;
+	padding: 30px 15px 60px;
+	/*height: 1000px;*/
+
+}
+
+.intro-block .tpad {
+	padding-top: 20px;
+}
+
+.text-muted {
+	color: #e9e6df;
+	font-weight: 100;
+}
+
+/*.lead {
+	font-size: 15px;
+}
+*/
+.mr {
+	height: 290px;
+	margin-bottom: 20px;
+}
+
+
+
+.padded {
+	padding: 50px 15px;
+}
+
+.marketing {
+	padding: 10px 0 60px;
+}
+
+hr {
+	border-top: 1px solid #c9c9c9;
+}
+
+.info {
+	background: #1a7def;
+	padding: 60px 0 30px;
+}
+
+.info small {
+	color: #eeefe9;
+}
+
+.info a {
+	color: #fff;
+}
+
+.info a:hover {
+	color: #333;
+}
+
+.tab-pane {
+	padding: 20px 10px 0;
+}
+
+.tab_img {
+	width: 150px; 
+	height: 42px;
+	padding-left: 20px;
+}
+
+.blog h1 a {
+	color: #4b8575;
+}
+
+.blog p a {
+	color: #ed7337;
+}
+
+
+.sidebar {
+	color: #e9e6aa;
+}
+
+@media(min-width: 768px) {
+	.carousel-inner >.item {
+	height: 700px;
+	}
+}

@@ -1,0 +1,66 @@
+body {
+background: #1a7def linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+	width: 100%;
+}
+
+.wrapper {
+	width: 40%;
+	margin: 0 auto;
+	background: #7a1efa;
+}
+
+#register-form {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+.form-title {
+	/*padding-top: 10px;*/
+	margin-top: 30px;
+	
+	font-weight: bold;
+}
+
+h4 {
+	padding-top: 20px;
+	position: relative;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#input {
+	margin: 0 auto;
+
+}
+
+.input-field {
+	margin: 30px auto 20px;
+}
+
+.input-field input[type=text], input[type=password] {
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+
+.btn {
+	
+
+}
+
+.btn .register_btn {
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+	
+
+}
